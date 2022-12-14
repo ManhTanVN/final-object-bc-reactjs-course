@@ -1,0 +1,26 @@
+.results-main {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.result-header-title {
+    font-size: 24px;
+    margin: 15px 0;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+input#inner_search_v5 {
+    border: 1px solid #333;
+    padding: 8px 16px 8px 5px;
+    min-width: 30vw;
+    border-radius: 5px;
+}
+input.cursor-pointer.button-search {
+    margin-left: 15px;
+    border: 1px solid #0d253f;
+    padding: 8px 16px;
+    background: #0d253f;
+    color: #fff;
+    border-radius: 5px;
+}
