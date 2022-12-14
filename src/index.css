@@ -58,3 +58,6 @@ h2 {
     transform: translate(-50%, -50%);
     z-index: 9;
 }
+.back-ground-play-icon {
+    background-image: url('./media/playIcon.svg');
+}

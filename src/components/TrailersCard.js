@@ -35,7 +35,10 @@ const TrailersCard = ({ movie, cardStyle }) => {
                         />
 
                         <div className="play">
-                            <span className="glyphicons_v2 play invert svg" style={backgroundImage}></span>
+                            <span
+                                className="back-ground-play-icon glyphicons_v2 play invert svg"
+                                style={backgroundImage}
+                            ></span>
                         </div>
                     </a>
                 </div>
