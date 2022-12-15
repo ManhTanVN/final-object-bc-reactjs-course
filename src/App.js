@@ -12,6 +12,7 @@ function App() {
                 <Header />
                 <Routes>
                     <Route path="" element={<HomePage />} />
+                    <Route path="final-object-bc-reactjs-course" element={<HomePage />} />
                     <Route path="search" element={<SearchPage />} />
                     <Route path="movies/:id" element={<MovieDetailPage />} />
                     <Route path="*" element={<div>Page not found</div>} />
