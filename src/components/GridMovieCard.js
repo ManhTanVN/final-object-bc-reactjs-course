@@ -15,7 +15,7 @@ const GridMovieCard = ({ movie }) => {
                             className="poster"
                             src={`${IMAGE_PATH}${movie.poster_path}`}
                             alt={movie.title}
-                            srcSet={`${IMAGE_PATH}${movie.poster_path} 1x, ${IMAGE_PATH}${movie.poster_path} 2x`}
+                            srcSet={`${IMAGE_PATH}${movie.poster_path} 1x, ${IMAGE_PATH}${movie.poster_path}`}
                         />
                     </Link>
                 </div>
